@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds" >
+        <attr name="colorBtnOperatorsText" format="color" />
+        <attr name="colorBtnNumbersText" format="color" />
+
+        <attr name="colorBtnBackground" format="color" />
+
+        <attr name="colorOutputText" format="color" />
+        <attr name="colorInputText" format="color" />
+
+        <attr name="colorAppBackground" format="color" />
+        <attr name="colorBtnClicked" format="color" />
+    </declare-styleable>
+</resources>
