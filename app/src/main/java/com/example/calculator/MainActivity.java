@@ -106,6 +106,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void handleInputOutputDependingOnState() {
+        if(input.equals("-")) {
+            resetAll();
+        }
         if (percentState) {
             if (mathSymbolAtTheEnd()) {
                 deleteOperation();

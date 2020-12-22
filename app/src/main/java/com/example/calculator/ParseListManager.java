@@ -9,8 +9,13 @@ public class ParseListManager {
     public void parseStringIntoList(String input) {
         StringBuffer buffer = new StringBuffer();
         inputList.clear();
+        int i = 0;
+        if (input.startsWith("-")) {
+            buffer.append("-");
+            i = 1;
+        }
 
-        for (int x = 0; x < input.length(); x++) {
+        for (int x = i; x < input.length(); x++) {
             String s = input.charAt(x) + "";
             if (s.equals(".")) {
                 decimalFound = true;
