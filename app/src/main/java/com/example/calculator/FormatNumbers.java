@@ -44,62 +44,12 @@ public class FormatNumbers {
         return sb.toString();
     }
 
-    private String formatNumbers(String input) {
-        String toReturn = input;
-        int a = toReturn.length();
-        if (a < 4) {
-            return input;
-        }
-
-        switch (a) {
-            case 4:
-                toReturn = addChar(toReturn, ',', 1);
-                break;
-            case 5:
-                toReturn = addChar(toReturn, ',', 2);
-                break;
-            case 6:
-                toReturn = addChar(toReturn, ',', 3);
-                break;
-            case 7:
-                toReturn = addChar(toReturn, ',', 1);
-                toReturn = addChar(toReturn, ',', 5);
-                break;
-            case 8:
-                toReturn = addChar(toReturn, ',', 2);
-                toReturn = addChar(toReturn, ',', 6);
-                break;
-            case 9:
-                toReturn = addChar(toReturn, ',', 3);
-                toReturn = addChar(toReturn, ',', 7);
-                break;
-            case 10:
-                toReturn = addChar(toReturn, ',', 1);
-                toReturn = addChar(toReturn, ',', 5);
-                toReturn = addChar(toReturn, ',', 9);
-                break;
-            case 11:
-                toReturn = addChar(toReturn, ',', 2);
-                toReturn = addChar(toReturn, ',', 6);
-                toReturn = addChar(toReturn, ',', 10);
-                break;
-            case 12:
-                toReturn = addChar(toReturn, ',', 3);
-                toReturn = addChar(toReturn, ',', 7);
-                toReturn = addChar(toReturn, ',', 11);
-                break;
-        }
-        return toReturn;
-    }
+      private String formatNumbers(String input) {
+        return input.replaceAll("(\\d)(?=(\\d{3})+$)", "$1,");
+      }
 
     private String replaceDecimalWithComma(String input) {
         return input.replace(".", ",");
-    }
-
-    private String addChar(String str, char ch, int position) {
-        StringBuilder sb = new StringBuilder(str);
-        sb.insert(position, ch);
-        return sb.toString();
     }
 
 }
