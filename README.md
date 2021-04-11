@@ -21,3 +21,6 @@
 -Formats Input and Output fields, adding commas (e.g. 10,000 / 1,000). Decimal replaces commas (e.g. 100,000 > [.5] > 100000.5).
 
 -Upon trying to divide by 0, it shows an error message: "Can't divide by zero." After that, pressing any button resets the calculation.
+
+
+https://github.com/aleksns/Calculator
