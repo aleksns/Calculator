@@ -1,24 +1,24 @@
 <html>
     <head>
-        <title>https://github.com/aleksns</title>
+        <link>https://github.com/aleksns</link>
     </head>
 <body>
 <h1>Calculator with MDAS function and real time calculation</h1>
-<p>-Operates in real-time, following the MDAS (Multiplication, Division, Addition, Subtraction) order.
+<p>-Operates in real-time, following the MDAS (Multiplication, Division, Addition, Subtraction) order.</p>
 
--You can delete everything with "<-" button. Elements are deleted one by one and calculated in real-time as well.
+<p>-You can delete everything with "<-" button. Elements are deleted one by one and calculated in real-time as well. </p>
 
--Two available color themes: Light and Dark (you can change the colors in an XML file).
+<p>-Two available color themes: Light and Dark (you can change the colors in an XML file).</p>
 
--Strict inputting more than one after another operator (new operator rewrites the old one).
+<p>-Strict inputting more than one after another operator (new operator rewrites the old one).</p>
 
--Strict inputting more than one decimal to each number. If you press decimal when there is no number, adds 0 to it (e.g [10+.5] becomes [10+0.5]).
+<p>-Strict inputting more than one decimal to each number. If you press decimal when there is no number, adds 0 to it (e.g [10+.5] becomes [10+0.5]).</p>
 
--Strict inputting few 0 in a row, if there is no decimal (can't input 000).
+<p>-Strict inputting few 0 in a row, if there is no decimal (can't input 000).</p>
 
--Formats Input and Output fields, adding commas (e.g. 10,000 / 1,000). Decimal replaces commas (e.g. 100,000 > [.5] > 100000.5).
+<p>-Formats Input and Output fields, adding commas (e.g. 10,000 / 1,000). Decimal replaces commas (e.g. 100,000 > [.5] > 100000.5).</p>
 
--Upon trying to divide by 0, it shows an error message: "Can't divide by zero." After that, pressing any button resets the calculation.
+<p>-Upon trying to divide by 0, it shows an error message: "Can't divide by zero." After that, pressing any button resets the calculation.</p>
 
 https://github.com/aleksns/Calculator</p>
 </body>
