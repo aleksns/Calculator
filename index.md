@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link>https://github.com/aleksns</link>
+        https://github.com/aleksns
     </head>
 <body>
 <h1>Calculator with MDAS function and real time calculation</h1>
@@ -20,6 +20,6 @@
 
 <p>-Upon trying to divide by 0, it shows an error message: "Can't divide by zero." After that, pressing any button resets the calculation.</p>
 
-https://github.com/aleksns/Calculator</p>
+https://github.com/aleksns/Calculator
 </body>
 </html> 
